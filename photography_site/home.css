@@ -4,7 +4,27 @@ body {
 }
 .row {
     margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 10px;
+    width: 63%;
 }
+
+.image-fluid {
+    margin: 0;
+    padding: 0;
+    object-fit: fill;
+}
+
+.container-fluid {
+    max-width:2000px;
+    width: 100%;
+    padding-top: 100px;
+ }
+
+ .col-md-12 {
+     max-width: 100vw;
+     background-color: red;
+ }
+
+ .card-container {
+     background-color: green;
+     
+ }
