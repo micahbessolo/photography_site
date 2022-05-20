@@ -1,30 +1,36 @@
 body {
-    margin: auto;
-    
+    margin: auto;    
 }
+
+/* picture layout */
 .row {
     margin: auto;
     width: 63%;
 }
 
-.image-fluid {
-    margin: 0;
-    padding: 0;
-    object-fit: fill;
+@media (max-width: 576px) {
+    .row {
+        width: 100%;
+    }
+
+}
+
+.img-fluid {
+    margin: auto;
+    /* padding-left: 100px; */
+    display: block;
+    object-fit: cover;
 }
 
 .container-fluid {
     max-width:2000px;
     width: 100%;
     padding-top: 100px;
+    margin: 0;
  }
 
- .col-md-12 {
+ .col-sm-12 {
      max-width: 100vw;
-     background-color: red;
+     /* background-color: red; */
  }
 
- .card-container {
-     background-color: green;
-     
- }
